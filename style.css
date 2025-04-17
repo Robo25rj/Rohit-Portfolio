@@ -89,7 +89,7 @@ span {
     margin-bottom: 0;
     padding-left: 2rem;
     height: 37rem;
-    background-image: url(../image/g2.jfif);
+    background-image: url(./g2.jfif);
     background-size: cover;
     position: relative;
     z-index: 0;
