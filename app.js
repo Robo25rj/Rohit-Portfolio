@@ -71,7 +71,7 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
       message: document.getElementById("message").value,
     };
   
-    fetch("http://localhost:8080/api/contact", {
+    fetch("https://spring-bootemailapi-production.up.railway.app/api/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
