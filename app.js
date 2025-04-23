@@ -41,7 +41,7 @@ menuToggle.addEventListener('click', () => {
     navMenu.style.backgroundColor="black";
     navMenu.style.width="100%"
     navMenu.style.height="100%"
-    navMenu.style.padding="0 0 0 10rem";
+    navMenu.style.padding="0 0 0 0rem";
     navMenu.style.border="1px solid  #ffdd00"
 });
 
