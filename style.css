@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: black;
+    scroll-behavior: auto;
 }
 
 
@@ -404,12 +405,14 @@ hr{
 @media (max-width: 767px) {
     body {
         font-size: 14px;
+        
     }
     
     header {
         flex-direction: column;
-        padding: 1rem;
+        margin-top: 0;
         position: relative;
+        text-align: left;
     }
     
     nav ul {
@@ -428,11 +431,13 @@ hr{
     
     #home {
         flex-direction: column;
-        height: auto;
-        padding: 2rem 1rem;
-        text-align: center;
+        height: min-content;
+        padding-top: 2.5rem;
+        padding-left: 15px;
+        text-align: left;
         background-position: center;
         background-size: cover;
+        
     }
     
     #left1, #right1 {
@@ -480,15 +485,16 @@ hr{
         padding: 1rem;
     }
     
+    .skill-1,.skill-2{
+        text-align: center;
+    }
     .skill-bar {
         width: 100%;
         margin: 10px 0;
         margin-left: 0;
         padding-right: 6rem;
     }
-    .skill-1,.skill-2{
-        text-align: center;
-    }
+    
     #b1, #b2 {
         width: 30%;
         height: 3rem;
@@ -499,6 +505,7 @@ hr{
     .message-form textarea {
         font-size: 14px;
     }
+    
    
 }
 
@@ -511,7 +518,7 @@ hr{
     right: 0;
     top: 0;
     z-index: 2;
-    background-color: #ffdd00;
+    background-color: transparent;
 }
 
 .menu-toggle i {
