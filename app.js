@@ -33,15 +33,17 @@ function changeName() {
 }
 
 // // Hamburger menu toggle functionality
-// const menuToggle = document.querySelector('.menu-toggle');
-// const navMenu = document.querySelector('.nav-menu');
+const menuToggle = document.querySelector('.menu-toggle');
+const navMenu = document.querySelector('.nav-menu');
 
-// menuToggle.addEventListener('click', () => {
-//     navMenu.classList.toggle('show');
-//     navMenu.style.backgroundColor="black";
-//     navMenu.style.width="100%"
-//     navMenus.style.height="100%"
-// });
+menuToggle.addEventListener('click', () => {
+    navMenu.classList.toggle('show');
+    navMenu.style.backgroundColor="black";
+    navMenu.style.width="100%"
+    navMenu.style.height="100%"
+    navMenu.style.padding="0 0 0 10rem";
+    navMenu.style.border="1px solid  #ffdd00"
+});
 
 // Start the name changing animation
 changeName();
